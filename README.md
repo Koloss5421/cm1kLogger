@@ -1,5 +1,5 @@
 # cm1kLogger
-Python based Netgear CM-1000 Docsis Status Logger to JSON for splunk ingestion. 
+Python based, Netgear CM-1000 Docsis Status Logger for splunk ingestion. Outputs Json Format. 
 
 ### Usage:
 cm1kLogger.py [-h] [--debug] logfile

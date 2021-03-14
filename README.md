@@ -8,9 +8,9 @@ python3 cm1kLogger.py [-h] [--debug] logfile
   logfile    |   The destination of the json log output.
 
 #### optional arguments:
-  -h, --help   | show this help message and exit
+  -h, --help   | show help message
   
-  --debug, --d | Enable debug logging.
+  --debug, --d | Enable debug logging to console.
 
 ### Splunk Sourcetype Settings:
 ```

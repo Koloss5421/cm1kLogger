@@ -69,10 +69,10 @@ def makeRequest():
                     ## iterate over each downstream channel
                     iterateTable(x, 'downstream_channels', table_objects)
                 if x.get('id') == "usTable":
-                    ## iterate over each downstream channel
+                    ## iterate over each upstream channel
                     iterateTable(x, 'upsstream_channels', table_objects)
                 if x.get('id') == "d31dsTable":
-                    ## iterate over each downstream channel
+                    ## iterate over each downstream ofdm channel
                     iterateTable(x, 'downstream_ofdm_channels', table_objects)
             success = True
             break

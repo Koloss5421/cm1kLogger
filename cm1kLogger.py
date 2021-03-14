@@ -60,7 +60,6 @@ def makeRequest():
             tables = soup.findAll('table')
             ## Let's iterate over the tables we found in the soup
             for x in tables:
-                ## lets find the Startup Procedure
                 ## ~maybe~ a better way to do this. Maybe not. 
                 ## but I don't want all the tables really
                 if x.get('id') == "startup_procedure_table":

@@ -8,7 +8,7 @@ from time import sleep
 
 parser = argparse.ArgumentParser(description='Netgear CM-1000 Docsis Status Logger')
 parser.add_argument("logfile",help='The destination of the json log output.')
-parser.add_argument("--debug", "--d", action="store_true", default=False, help="Enable debug logging.")
+parser.add_argument("--debug", "--d", action="store_true", default=False, help="Enable debug logging to console.")
 args = parser.parse_args()
 
 modem_docis = "http://192.168.100.1/DocsisStatus.asp"
